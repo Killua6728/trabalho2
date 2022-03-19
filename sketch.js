@@ -20,7 +20,7 @@ garden.addImage(gardenImg);
 //criar sprite do coelho
 rabbit = createSprite(180,340,30,30);
 rabbit.scale =0.09;
-rabbit.addImage(rabbitImg);
+rabbit.addImage("rabbitImg");
 
 }
 
@@ -49,21 +49,21 @@ if(select_sprites==3){
 }
 function createOrange(){
   orange=createSprite(random(50,350),40,10,10)
-  orange=addImage(orangeImg)
+  orange=addImage("orangeImg")
   orange.scale=0.5
   orange.velocityY=3
   orange.lifetime=150
 }
 function createRed(){
   redL=createSprite(random(50,350),40,10,10)
-  redL=addImage(redImg)
+  redL=addImage("redImg")
   redL.scale=0.5
   redL.velocityY=3
   redL.lifetime=150
 } 
 function createApples() {
   apple=createSprite(random(50,350),40,10,10)
-  apple=addImage(appleImg)
+  apple=addImage("appleImg")
   apple.scale=0.5
   apple.velocityY=3
   apple.lifetime=150
